@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Home Page</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/fonts.css">
+        <link rel="stylesheet" href="css/navbar.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <style>
+            header {
+                min-height: 100vh;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding-top: 80px;
+            }
+            .header-content {
+                max-width: 800px;
+                margin: 0 auto;
+                text-align: center;
+            }
+            .header-content h4 {
+                text-transform: uppercase;
+                font-size: 1.2rem;
+                letter-spacing: 2px;
+                color: var(--clr-blue);
+                margin-bottom: 1rem;
+            }
+            .header-content .title {
+                font-size: 3.5rem;
+                font-weight: 800;
+                line-height: 1.2;
+                margin-bottom: 2rem;
+                color: var(--clr-white);
+            }
+            .header-content p {
+                font-size: 1.2rem;
+                color: var(--clr-grey);
+                margin-bottom: 3rem;
+                line-height: 1.6;
+            }
+            .header-content img {
+                margin-top: 4rem;
+                border-radius: 10px;
+                box-shadow: 0 0 20px rgba(0,0,0,0.5);
+                border: 1px solid rgba(255,255,255,0.1);
+                width: 100%;
+            }
+        </style>
+    </head>
+    <body>
+        <nav class="navbar">
+            <div class="container">
+                <div class="navbar-content" style="width: 100%; display: flex; justify-content: space-between;">
+                     <a href="index.html" class="navbar-brand">
+                        <i class="fas fa-file-alt navbar-icon-fa"></i>
+                        <span class="navbar-brand-text">Resume <span>Builder.</span></span>
+                    </a>
+                    <div class="material">
+                        <a class="icons" href="https://github.com/KhawajaAbdulMoiz" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a class="icons" href="https://www.linkedin.com/in/saad-raza-744065332" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <header>
+            <div class="container">
+                <div class="header-content">
+                    <h4>                   </h4>
+                    <h1 class="title">Only 2% of resumes make it pass the first round. Be in the top 2%</h1>
+                    <p>Build a standout resume fast—just enter your details, and this website will do the rest. Quick, easy and tailored to impress. Create your resume now!</p>
+                    <a href="resume.html" class="btn btn-primary">Create My Resume</a>
+                    <img src="https://images.unsplash.com/photo-1586281380349-632531db7ed4?q=80&w=2070&auto=format&fit=crop" alt="Resume Preview">
+                </div>
+            </div>
+        </header>
+        <script src="js/script.js"></script>
+    </body>
+</html>
